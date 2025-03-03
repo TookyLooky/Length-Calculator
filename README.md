@@ -10,7 +10,7 @@
  <h3>Currently, our team is working on a length calculator</h3>
   <body>
 <p>Click here to got to length calculator: </p>
-<a href="length-calculator.html">Length Calculator</a>
+<a href="length-calculator.md">Length Calculator</a>
 
 
   </body>

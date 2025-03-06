@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Length Calculator.js</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Length Calculator.js</font>
+</center></td></tr></table>
+<pre><span class="s0">const </span><span class="s1">display </span><span class="s2">= </span><span class="s1">document</span><span class="s2">.</span><span class="s1">getElementById</span><span class="s2">(</span><span class="s3">&quot;display&quot;</span><span class="s2">);</span>
+
+<span class="s0">function </span><span class="s1">appendToDisplay</span><span class="s2">(</span><span class="s1">input</span><span class="s2">){</span>
+    <span class="s1">display</span><span class="s2">.</span><span class="s1">value </span><span class="s2">+= </span><span class="s1">input</span><span class="s2">;</span>
+<span class="s2">}</span>
+
+<span class="s0">function </span><span class="s1">clearDisplay</span><span class="s2">(){</span>
+    <span class="s1">display</span><span class="s2">.</span><span class="s1">value </span><span class="s2">= </span><span class="s3">&quot;&quot;</span><span class="s2">;</span>
+<span class="s2">}</span>
+
+<span class="s0">function </span><span class="s1">calculate</span><span class="s2">(){</span>
+    <span class="s0">try</span><span class="s2">{</span>
+        <span class="s1">display</span><span class="s2">.</span><span class="s1">value </span><span class="s2">= </span><span class="s1">eval</span><span class="s2">(</span><span class="s1">display</span><span class="s2">.</span><span class="s1">value</span><span class="s2">);</span>
+    <span class="s2">}</span>
+    <span class="s0">catch</span><span class="s2">(</span><span class="s1">error</span><span class="s2">){</span>
+        <span class="s1">display</span><span class="s2">.</span><span class="s1">value </span><span class="s2">= </span><span class="s3">&quot;Error&quot;</span><span class="s2">;</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+
+
+</pre>
+</body>
+</html>

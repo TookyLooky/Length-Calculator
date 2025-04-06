@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: aqua;
+    background-color: #ffffff;
 }
 #keys {
     width: 100%;
@@ -13,4 +13,10 @@ body{
     display: flex;
     flex-flow: column;
     padding: 25px;
+}
+#back{
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-size: 1px;
 }

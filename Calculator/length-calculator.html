@@ -7,34 +7,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href = "/header.css">
 </head>
 
 <body>
-    <div id="Calculator">
-        <a href="../index.html">
-            <img class ="back" src="https://raw.githubusercontent.com/TookyLooky/CalcDistances/main/images/back-button.png" alt="Back button" style = "width:20px;height:20px;">
-        </a>
-        <input id="display" readonly>
-        <div id="Keys">
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
-            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
-            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
-            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()" class="operator-btn">C</button>
+<div class = "header">
+    <div class = "hb">
+        <li class = "left">
+                <a href="../home_page/Index.html" class="logo">
+                    <img src = "/images/distance.png" alt = "logo" style = "width:40px;height:40px">
+                </a>
+                <h1>
+                    <a href = "../home_page/Index.html">Distance Master</a>
+                </h1>
+        </li>
+        <div class = "right">
+            <a class = "home" href = "../home_page/Index.html" style="color:black;text-decoration: none;">Home</a>
+            <a class = "about_us" href="../about_us/about_us.html" style="color:black;text-decoration: none;margin-left: 10px;">About Us</a>
         </div>
     </div>
+</div>
+<div class = "for_Calculator">
+    <div id="Calculator">
+
+        <label for="display"></label><input id="display" readonly>
+        <div id="Keys">
+                <button onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+                <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+                <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+                <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()" class="operator-btn">C</button>
+        </div>
+    </div>
+</div>
 <script src="Length Calculator.js"></script>
 </body>
 </html>

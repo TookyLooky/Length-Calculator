@@ -1,5 +1,5 @@
-body{
-    margin: 0;
+.for_Calculator{
+    padding-left: 15%;
     display: flex;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
